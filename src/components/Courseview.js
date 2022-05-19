@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Courseview = () => {
     var course=[{"_id":"6285a2a31887dc001619415c","courseTitle":"Python Django Internship",
@@ -9,7 +10,7 @@ const Courseview = () => {
   return (
     
         <div>
-        
+        <Navbar/>
         <div className="container">
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
